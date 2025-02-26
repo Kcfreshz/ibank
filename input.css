@@ -164,7 +164,7 @@
 
 .dots {
   position: absolute;
-  bottom: 5%;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
