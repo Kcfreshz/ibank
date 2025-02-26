@@ -1,7 +1,11 @@
 module.exports = {
-  content: ['./*.html'],
+  content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xs: "300px", // Custom extra small screen
+      },
+    },
   },
   plugins: [],
-}
+};
